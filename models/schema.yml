@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: ventas_transformado
+    description: >
+      Este modelo transforma la tabla de ventas agrupando los datos por región y canal de venta. 
+      Se enfoca únicamente en las combinaciones correspondientes a las regiones con el mayor número de ventas, 
+      para facilitar un análisis del total vendido y otros indicadores agregados relevantes.
+    columns:
+      - name: region
+        description: Región geográfica de la venta.
+      - name: canal_venta
+        description: Canal de venta (por ejemplo, Online o Tienda Física).
+      - name: total_ventas
+        description: Total de registros de venta por región y canal.
+      - name: monto_total
+        description: Suma total de ventas por región y canal.
+      - name: ticket_promedio
+        description: Monto promedio por venta en la agrupación.
+      - name: venta_minima
+        description: Monto mínimo de venta en la agrupación.
+      - name: venta_maxima
+        description: Monto máximo de venta en la agrupación.

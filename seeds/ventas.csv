@@ -1,0 +1,11 @@
+venta_id,fecha,producto_id,cantidad,precio_unitario,total_venta,cliente_id,region,canal_venta
+1,2025-01-01,101,2,50,100,1001,Norte,Online
+2,2025-01-02,102,1,100,100,1002,Sur,Tienda Fisica
+3,2025-01-03,103,5,20,100,1003,Este,Online
+4,2025-01-04,101,3,50,150,1004,Oeste,Tienda Fisica
+5,2025-01-05,104,4,10,40,1005,Norte,Online
+6,2025-01-06,105,10,15,150,1001,Sur,Online
+7,2025-01-07,106,7,30,210,1006,Este,Tienda Fisica
+8,2025-01-08,107,1,200,200,1007,Oeste,Online
+9,2025-01-09,108,3,75,225,1008,Norte,Tienda Fisica
+10,2025-01-10,109,2,120,240,1009,Sur,Online

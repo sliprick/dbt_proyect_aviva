@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: avivaDataSet
+    tables:
+      - name: ventas
+        description: "Tabla original de ventas con los datos cargados en BigQuery, contiene información de ventas por región, canal, fecha, cliente, etc."
